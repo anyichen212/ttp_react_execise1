@@ -6,7 +6,7 @@ function App() {
 
     return <div>
     <ContactCard
-        name='Anyi Chen' 
+        name='Anyi' 
         mobileNumber='555-555-5555' 
         workPhone ='123-456-7890' 
         email='anyi@google.com' />
@@ -19,9 +19,15 @@ function App() {
 
     <ContactCard 
         name='Kyaw' 
-        mobileNumber='777-777-777' 
+        mobileNumber='777-777-7777' 
         workPhone ='123-456-7890' 
-        email='google@google.com' />
+        email='Kyaw@google.com' />
+
+    <ContactCard 
+        name='Jianing' 
+        mobileNumber='888-888-888' 
+        workPhone ='123-456-7890' 
+        email='Jianing@google.com' />
 
     </div> 
 }

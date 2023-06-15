@@ -29,11 +29,17 @@ class ContactCard extends Component {
         console.log('RENDER');
         return (
             <div>
-                <div>
-                    <h1>Contact Name : {this.props.name}</h1>
-                    <h2>Mobile Phone : {this.props.mobileNumber}</h2>
-                    <h2>Work Phone : {this.props.workPhone}</h2>
-                    <h2>Email : {this.props.email}</h2>
+                <div style = {{margin: "20px"}}>
+                    <h1 style = {{color: "darkred"}}>Contact Name : {this.props.name}</h1>
+                    <div style = {{
+                    margin: "20px", 
+                    padding: "10px",
+                    border: "5px solid grey",
+                    }}>
+                        <h2>Mobile Phone : {this.props.mobileNumber}</h2>
+                        <h2>Work Phone : {this.props.workPhone}</h2>
+                        <h2>Email : {this.props.email}</h2>
+                    </div>
                 </div>
             </div>
 

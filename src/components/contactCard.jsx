@@ -30,12 +30,11 @@ class ContactCard extends Component {
         return (
             <div>
                 <div>
-                    <h1>Contact Name : {this.state.name}</h1>
-                    <h2>Mobile Phone : {this.state.mobileNumber}</h2>
-                    <h2>Work Phone : {this.state.workPhone}</h2>
-                    <h2>Email : {this.state.email}</h2>
+                    <h1>Contact Name : {this.props.name}</h1>
+                    <h2>Mobile Phone : {this.props.mobileNumber}</h2>
+                    <h2>Work Phone : {this.props.workPhone}</h2>
+                    <h2>Email : {this.props.email}</h2>
                 </div>
-                <input onChange={this.handleInputterChange} defaultValue={this.state.inputter}></input>
             </div>
 
         )
